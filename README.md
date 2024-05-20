@@ -1,4 +1,4 @@
-Trabalho T2 de Algoritimos e Estrutura de Dados. 
+Trabalho T2 de Algoritimos e Estrutura de Dados. <br>
 Integrantes: 
 | Nome                           | RA          |
 |--------------------------------|-------------|
