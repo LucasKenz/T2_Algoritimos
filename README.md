@@ -1,5 +1,5 @@
 Trabalho T2 de Algoritimos e Estrutura de Dados
-Integrantes:
+\n Integrantes:
 | Nome                           | RA          |
 |--------------------------------|-------------|
 | Allan Kenzo Seiki Takose       | 23.01362-0  |
