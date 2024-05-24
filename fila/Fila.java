@@ -1,4 +1,4 @@
-package T2_Algoritimos.fila;
+package fila;
 public class Fila <E> {
     private E[] dados;
     private int primeiro;

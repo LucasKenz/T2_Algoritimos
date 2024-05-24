@@ -1,36 +1,19 @@
-package carro;
+package carro_estacionado;
+
 import java.time.Duration;
 import java.time.LocalDateTime;
+import carro.Carro;
 
-public class Carro {
-    private int anoFab;
-    private String placa;
+public class CarroEstacionado extends Carro {
     private LocalDateTime entrada;
     private LocalDateTime saida;
     private int manobras;
 
-    public Carro(int anoFab, String placa) {
-        this.anoFab = anoFab;
-        this.placa = placa;
+    public CarroEstacionado(int anoFab, String placa) {
+        super(anoFab, placa);
         this.entrada = null;
         this.saida = null;
         this.manobras = 0;
-    }
-
-    public int getAnoFab() {
-        return anoFab;
-    }
-
-    public void setAnoFab(int anoFab) {
-        this.anoFab = anoFab;
-    }
-
-    public String getPlaca() {
-        return placa;
-    }
-
-    public void setPlaca(String placa) {
-        this.placa = placa;
     }
 
     public LocalDateTime getEntrada() {
@@ -63,7 +46,6 @@ public class Carro {
 
     @Override
     public String toString() {
-        return "Carro [anoFab=" + anoFab + ", manobras=" + manobras + ", placa=" + placa
-                + ", entrada=" + entrada + ", saida=" + saida + "]";
+        return "CarroEstacionado [anoFab=" + getAnoFab() + ", manobras= " + manobras + ", placa=" + getPlaca() + ", entrada=" + entrada + ", saida=" + saida + "]";
     }
 }

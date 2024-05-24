@@ -1,4 +1,4 @@
-package T2_Algoritimos.pilha;
+package pilha;
 public class Pilha<Info> {
     private No<Info> topo;
     private int tamanho;

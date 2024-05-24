@@ -1,4 +1,4 @@
-package T2_Algoritimos.pilha;
+package pilha;
 public class No<Info> {
     private Info info;
     private No<Info> proximo;
